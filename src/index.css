@@ -1,7 +1,14 @@
-/* 引入Tailwind CSS基础样式 */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* 引入Tailwind CSS基础样式 - v4版本 */
+@import 'tailwindcss';
+
+/* 定义自定义主题颜色 */
+@theme {
+  --color-primary: #1890ff;
+  --color-secondary: #52c41a;
+  --color-warning: #faad14;
+  --color-danger: #f5222d;
+  --color-info: #13c2c2;
+}
 
 /* 基础样式重置 */
 * {
